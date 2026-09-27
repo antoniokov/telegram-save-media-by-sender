@@ -1,0 +1,16 @@
+# Personal data: Telegram exports and sorted results. Never commit these.
+input/
+output/
+ChatExport_*/
+DataExport_*/
+result.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
