@@ -59,12 +59,18 @@ A full-account export (Settings → Advanced → **Export Telegram data**) also 
 
 ## What gets copied
 
-| Copied | Skipped |
-|---|---|
-| Photos (Telegram's compressed version) | Stickers and GIFs (they come from sticker packs and GIF search, not from the sender) |
-| Images sent as files, at original quality (JPG, PNG, HEIC, …) | Voice messages, music, documents |
-| Videos and round video messages | Telegram's `*_thumb.jpg` preview files |
-| | Exact duplicates, such as the same file forwarded twice |
+Copied:
+
+- Photos (Telegram's compressed version)
+- Images sent as files, at original quality (JPG, PNG, HEIC, …)
+- Videos and round video messages
+
+Skipped:
+
+- Stickers and GIFs (they come from sticker packs and GIF search, not from the sender)
+- Voice messages, music, documents
+- Telegram's `*_thumb.jpg` preview files
+- Exact duplicates, such as the same file forwarded twice
 
 ## Good to know
 
